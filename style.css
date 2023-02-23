@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: Roboto, sans-serif;
 }
 
@@ -30,9 +30,11 @@ a {
     text-decoration: none;  
 }
 
-.menu a {
+.menu a,
+.hero p {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: lighter;
 }
 
 .hero {
@@ -42,7 +44,8 @@ a {
     gap: 50px;
     justify-content: center;
     padding: 50px;
-    align-items: flex-start
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .hero img {
@@ -55,8 +58,23 @@ a {
     color: #F9FAF8;
 }
 
-.hero p {
-    font-size: 18px;
-    font-weight: 100;
-    color: #E5E7EB;
+.info h2 {
+    text-align: center;
+}
+
+.image img {
+    width: 200px;
+}
+
+.gallery {
+    display: flex;
+    flex: 0;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+
+.image p {
+    text-align: center;
 }
