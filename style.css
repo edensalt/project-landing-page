@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 60px;
-    padding: 0 16px;
+    padding: 0 50px;
     background-color: #1F2937;
 }
 
@@ -39,13 +39,11 @@ a {
 
 .hero {
     display: flex;
-    flex: 1;
     background-color: #1F2937;
     gap: 50px;
     justify-content: center;
     padding: 50px;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .hero img {
