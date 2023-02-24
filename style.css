@@ -58,6 +58,7 @@ a {
 
 .info h2 {
     text-align: center;
+    margin: 50px;
 }
 
 .image img {
@@ -71,19 +72,23 @@ a {
     gap: 50px;
     flex-wrap: wrap;
     margin: 0 50px;
+    margin: 50px;
 }
 
 .image p {
     text-align: center;
 }
 
-.quote {
+.gray {
     background-color: #E5E7EB;
+    padding: 50px 0;
+}
+
+.quote {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    flex: 1;
+    margin: 0 50px;
 }
 
 .quote p {
@@ -91,18 +96,25 @@ a {
     font-weight: 100;
     color: #1F2937;
     font-style: italic;
-    margin: 0 50px;
-    display: flex;
+    align-self: center;
+    max-width: 950px;
+    /* display: flex; */
 }
 
+/*
 .quote .block {
     margin-top: 50px;
 }
+*/
 
-.quote .credit {
-    margin-bottom: 50px;
+.credit {
+    
+    /* margin-bottom: 50px; */
     font-size: 18px;
     font-style: normal;
     font-weight: bold;
-    align-self: flex-end;
+    text-align: right;
+    max-width: 950px;
+    text-align: right;
+
 }
