@@ -184,7 +184,6 @@ button:hover {
     font-style: normal;
     font-weight: bold;
     max-width: 1000px;
-    text-align: right;
 }
 
 .call-to-action {
@@ -197,7 +196,7 @@ button:hover {
     max-width: 750px;
     padding: 25px 50px;
     align-items: center;
-    gap: 150px;
+    gap: 100px;
     border-radius: 5px;
 }
 
