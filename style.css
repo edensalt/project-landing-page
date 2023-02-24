@@ -5,7 +5,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.header {
+.header,
+.footer {
     display: flex;
     justify-content: space-between;
     height: 60px;
@@ -32,7 +33,7 @@ a {
 
 .menu a,
 .hero p {
-    font-size: 18px;
+    font-size: 16px;
     color: #E5E7EB;
     font-weight: lighter;
 }
@@ -109,12 +110,25 @@ a {
 
 .credit {
     
-    /* margin-bottom: 50px; */
+    /*
+    Ideally, I want this in a container that is width 950px and justified to the right.
+    I want it to be to the right of the 950px container unless the page is too narrow.
+    If the page is too narrow, I want it to be 50px to the right of the page.
+    */
+   
     font-size: 18px;
     font-style: normal;
     font-weight: bold;
     text-align: right;
     max-width: 950px;
     text-align: right;
+}
 
+.footer {
+    color: #E5E7EB;
+    font-weight: lighter;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
