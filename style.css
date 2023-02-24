@@ -76,3 +76,33 @@ a {
 .image p {
     text-align: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    font-style: italic;
+    margin: 0 50px;
+    display: flex;
+}
+
+.quote .block {
+    margin-top: 50px;
+}
+
+.quote .credit {
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    align-self: flex-end;
+}
